@@ -1,1 +1,222 @@
-/* Los estilos de tu proyecto */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  height: 100%;
+  font-family: "Raleway", "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+h1, h2, h3, h4, h5, h6, small, a, p, ul, li {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+header a {
+  color: #4D4D4D;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.labcar-height {
+  padding: 4vh 0vw;
+}
+
+.labcar-travel {
+  background-image: url("../assets/images/taxi.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 13vh;
+  padding: 15vh 0vh;
+}
+
+.labcar-travel-height {
+  height: 20%;
+}
+
+.labcar-travel-box, .labcar-app, .labcar-location {
+  background-color: #F7B617;
+  color: #FFF;
+}
+
+.labcar-title-txt {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.labcar-title-txt-mobile {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.labcar-travel-sub-txt {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.labcar-logo {
+  height: 1.2rem;
+}
+
+.labcar-logo-mobile {
+  height: 1rem;
+}
+
+.labcar-travel-btn-txt {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.labcar-txt-small {
+  font-size: 0.9rem;
+}
+
+.labcar-iphone {
+  height: 45vh;
+}
+
+.labcar-txt {
+  font-family: "Lato";
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+
+.labcar-txt-mobile {
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.labcar-conduce {
+  background-image: url("../assets/images/conduce.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%
+}
+
+.labcar-conduce-box {
+  background-color: rgb(0,0,0,0.5);
+  color: #FFF;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.labcar-app-txt {
+  font-family: "Lato";
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.labcar-conduce-btn {
+  background-color: #F7B617;
+  color: #FFF;
+  font-weight: 600;
+}
+
+.labcar-input::placeholder {
+  color: #FFF;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.labcar-input-mobile::placeholder {
+  color: #FFF;
+  font-size: 0.9rem;
+}
+
+.labcar-input:focus, .labcar-input-mobile:focus {
+  box-shadow: none;
+}
+
+.labcar-location-btn-txt {
+  font-family: "Lato";
+  font-size: 0.9rem;
+}
+
+.labcar-map {
+  height: 50vh;
+}
+
+.labcar-login-modal {
+  background-color: #00B5A5;
+}
+
+.labcar-login-modal-box {
+  background-color: #FFF9FE;
+}
+
+.labcar-login-modal-icon {
+ background-color: #FBF2F6;
+ color: #5C595B;
+}
+
+.labcar-input-modal:focus {
+  box-shadow: none;
+  border-color: #F7B617;
+}
+
+.labcar-conductor-modal {
+  background-color: #B3ACAF;
+}
+
+footer a {
+ color: #FFF;
+ font-size: 0.9rem;
+ line-height: 2.3rem;
+}
+
+#footer-mobile a {
+ color: #FFF;
+ font-size: 0.9rem;
+ font-weight: 600;
+ line-height: 2.3rem;
+}
+
+footer a:hover, #footer-mobile a:hover {
+  color: #F7B617;
+  text-decoration: none;
+}
+
+.labcar-footer {
+  background-color: #323031;
+}
+
+.labcar-footer-app {
+  width: 60%;
+}
+
+.labcar-copyright {
+  font-family: "Lato";
+  font-size: 0.9rem;
+}
+
+#viaja-mobile, #app-mobile, #conduce-mobile, #location-mobile, #footer-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  #viaja-desktop, #app-desktop, #conduce-desktop, #location-desktop, #footer-desktop {
+    display: none;
+  }
+  #viaja-mobile, #app-mobile, #conduce-mobile, #location-mobile, #footer-mobile {
+    display: block;
+  }
+}
